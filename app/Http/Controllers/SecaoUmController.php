@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class SecaoUmController extends Controller
 {
     public function print() {
-        echo 'Essa eh a secao um';
+        return view('site.secao-um');
     }
 }
